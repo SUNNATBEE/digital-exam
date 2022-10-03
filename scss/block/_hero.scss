@@ -1,0 +1,71 @@
+.hero{
+    background-image: url("../images/mobile-mauntain.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 108px 0;
+}
+.hero-min__title{
+    font-family: "Poppins", "Arial", sans-serif ;
+    line-height: 155.2%;
+    color: #e87d0e;
+    display: inline-block;
+    margin-bottom: 31px;
+}
+.hero-title__wrapper{
+    width: 100%;
+    max-width: 480px;
+}
+.hero__title{
+    font-family: "Poppins", "Arial", sans-serif ;
+    font-size: 34px;
+    line-height: 155.2%;
+    margin-bottom: 28px;
+}
+.text-wrapper{
+    width: 100%;
+    max-width: 527px;
+}
+.hero-text{
+    font-family: "Poppins", "Arial", sans-serif ;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 200%;
+    margin-bottom: 35px;
+}
+.hero-link{
+    font-family: "Poppins", "Arial", sans-serif ;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    background-image: linear-gradient(92.48deg, #FA8305 2.08%, #FB9E3C 117.25%);
+    color: #fff;
+    border-radius: 40px;
+    padding: 14px 31px 15px 30px;
+}
+@media only screen and (min-width: 768px){
+    .hero{
+        padding-top: 128px;
+        padding-bottom: 158px;
+        background-image: url("../../images/bg-all-picture.svg");
+        background-size: cover;
+        background-position: bottom center center;
+    }
+    .hero-min__title{
+        margin-bottom: 17px;
+    }
+    .hero__title{
+        font-size: 50px;
+        margin-bottom: 26px;
+    }
+    .hero-text{
+        font-size: 16px;
+        margin-bottom: 50px;
+        
+    }
+    .hero-link{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

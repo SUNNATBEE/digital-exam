@@ -1,0 +1,54 @@
+/* GENERAL */
+  *,
+  *::before,
+  *::after{
+    box-sizing: inherit;
+  }
+
+  *{
+    box-sizing: border-box;
+  }
+  
+  html{
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  img{
+    display: block;
+    height: auto;
+  }
+  
+  body{
+    overflow-x: hidden;
+    @include stick-footer;
+    margin: 0;
+    font-family: "Poppins", "Arial", sans-serif !important;
+    // Body da font family ishlamadi
+  }
+  
+  /* VISUALLY-HIDDEN */
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
+  /* CONTAINER */
+  .container{
+    margin: 0 auto;
+    padding: 0px 20px;
+  }
+
+  /* STICKY-FOOTER */
+  .site-main{
+    flex-grow: 1;
+  }
+  

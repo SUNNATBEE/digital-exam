@@ -1,0 +1,11 @@
+@mixin stick-footer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+@mixin mobile-first($min){
+    @media only screen and (min-width: $min) {
+        @content
+    }
+}

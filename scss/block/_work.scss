@@ -1,0 +1,40 @@
+.work{
+    padding-top: 48px;
+    padding-bottom: 101px;
+}
+.work__wrapper{
+    max-width: 826px;
+    
+}
+.work__heading{
+    font-family: "Poppins", "Arial", sans-serif ;
+    font-size: 20px;
+    line-height: 187.5%;
+    margin-bottom: 42px;
+}
+.bg-office{
+    margin-left: -23px;
+}
+.text__box {
+    max-width: 545px;
+}
+.text__title{
+    font-family: "Poppins", "Arial", sans-serif ;
+    font-size: 30px;
+    line-height: 187.5%;
+}
+.work__text{
+    font-family: "Poppins", "Arial", sans-serif ;
+    line-height: 187.5%;
+    color: #525252;
+    
+}
+@media only screen and (min-width: 768px){
+    .work{
+        padding-top: 83px!important;
+        padding-bottom: 165px;
+    }
+    .work__heading{
+        font-size: 25px;
+    }
+}
