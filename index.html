@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./slick/slick/slick.css">
     <link rel="stylesheet" href="./css/bootstrap.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.min.css">
     <title>Exam-bs</title>
 </head>
 <body>
     
     <header class="site-header ">
         <div class="container mx-auto mobile-conatiner">
-            <div class="header-top d-none  d-md-block">
+            <div class="header-top  d-none  d-md-block bg-white">
                 <ul class="header-top__list  mb-0 list-unstyled d-flex justify-content-end">
                     <li class="header-top__item d-flex align-items-center">
                         <a class=" top_link text-decoration-none fw-normal" href="#">Company Address type here</a>
@@ -33,23 +33,23 @@
                     <nav class="sitenav   end-0  py-4 rounded d-md-block py-md-0 ">
                         <ul class="sitenav__list list-unstyled mb-0 d-flex flex-column align-items-center flex-md-row justify-content-end" >
                             <li class="sitenav__item fw-normal mb-2 mb-md-0" >
-                                <a class=" sitenav-link text-decoration-none fw-normal " href="#">Home</a>
+                                <a class=" sitenav-link text-decoration-none fw-normal text-white " href="#">Home</a>
                             </li>
                             <li class="sitenav__item mb-3  mb-md-0" >
-                                <a  class=" sitenav-link text-decoration-none fw-normal " href="#">About us</a>
+                                <a  class=" sitenav-link text-decoration-none fw-normal text-white" href="#">About us</a>
                             </li>
                             <li class="sitenav__item mb-3  mb-md-0" >
-                                <a  class=" sitenav-link text-decoration-none fw-normal " href="#">Services</a>
+                                <a  class=" sitenav-link text-decoration-none fw-normal text-white" href="#">Services</a>
                             </li>
                             <li class="sitenav__item " >
-                                <a  class=" sitenav-link text-decoration-none fw-normal " href="#">News</a>
+                                <a  class=" sitenav-link text-decoration-none fw-normal text-white" href="#">News</a>
                             </li>
                             <li class="sitenav__item d-none d-lg-block" >
-                                <a  class="site-conatact sitenav-link text-decoration-none " href="#">Contact us</a>
+                                <a  class="site-conatact sitenav-link text-decoration-none bg-white" href="#">Contact us</a>
                             </li>
                         </ul>
                     </nav>
-                    <button class="site-btn d-md-none" type="button">
+                    <button class="site-btn d-md-none bg-transparent border-0" type="button">
                     </button>
                 </div>
             </div>
@@ -60,26 +60,26 @@
         <section class="hero">
             <div class="container  mx-auto mobile-conatiner">
                 <div class="hero-textbox">
-                    <strong class="hero-min__title fw-bold ">
+                    <strong class="hero-min__title fw-bold d-inline-block">
                         Digital Marketing
                     </strong>
-                    <div class="hero-title__wrapper mb-4">
+                    <div class="hero-title__wrapper w-100 mb-4">
                         <h1 class="hero__title fw-bold text-black" >
                             Work that we produce for our clients
                         </h1>
                     </div>
-                    <div class="text-wrapper">
+                    <div class="text-wrapper w-100">
                         <p class="hero-text text-black">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
                         </p>
                     </div>
-                    <a class="hero-link text-decoration-none" href="#">Get more details</a>
+                    <a class="hero-link text-decoration-none d-inline-block text-white" href="#">Get more details</a>
                 </div>
                 
             </div>
         </section>
         
-        <section class="work ">
+        <section class="work pt-5">
             <div class="container  mx-auto mobile-conatiner">
                 <div class="work__wrapper w-100 text-center mx-md-auto">
                     <h2 class="work__heading fw-semibold text-black ">
@@ -94,7 +94,9 @@
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                     </p>
                 </div>
-                <img class="img-fluid bg-office ms-sm-0" src="./images/officemans.png" alt="work img">
+                <img class="img-fluid bg-office ms-sm-0" src="./images/officemans.png" 
+                srcset="./images/officemans.png 1x , ./images/officemans2x.png 2x "
+                alt="work img">
             </div>
         </section>
         
@@ -115,7 +117,7 @@
                         <h3 class="info__more text-center">
                             Mobile Game Development
                         </h3>
-                        <a class="info__link text-decoration-none d-inline-block " href="#">
+                        <a class="info__link text-decoration-none d-inline-block" href="#">
                             <img src="./images/arrow-right.svg" alt="icon">
                         </a>
                     </li>
@@ -175,7 +177,7 @@
                 </div>
             </div>
             <ul class="slider about__list list-unstyled">
-                <li class="about__item w-100 ">
+                <li class="about__item w-100 bg-white">
                     <span class="about__min-title fw-normal d-inline-block red">
                         Lorem ipsum
                     </span>
@@ -187,7 +189,7 @@
                     </p>
                     <a class="about__list-link text-decoration-none d-flex align-items-center justify-content-end" href="#">Read more</a>
                 </li>
-                <li class="about__item w-100">
+                <li class="about__item w-100  bg-white">
                     <span class="about__min-title fw-normal d-inline-block pink ">
                         Lorem ipsum 
                     </span>
@@ -199,7 +201,7 @@
                     </p>
                     <a class="about__list-link text-decoration-none d-flex align-items-center justify-content-end" href="#">Read more</a>
                 </li>
-                <li class="about__item w-100">
+                <li class="about__item w-100  bg-white">
                     <span class="about__min-title fw-normal d-inline-block blue">
                         Lorem ipsum
                     </span>
@@ -211,7 +213,7 @@
                     </p>
                     <a class="about__list-link text-decoration-none d-flex align-items-center justify-content-end" href="#">Read more</a>
                 </li>
-                <li class="about__item w-100">
+                <li class="about__item w-100  bg-white">
                     <span class="about__min-title fw-normal d-inline-block green">
                         Lorem ipsum
                     </span>
@@ -223,7 +225,7 @@
                     </p>
                     <a class="about__list-link text-decoration-none d-flex align-items-center justify-content-end" href="#">Read more</a>
                 </li>
-                <li class="about__item w-100">
+                <li class="about__item w-100  bg-white">
                     <span class="about__min-title fw-normal d-inline-block red">
                         Lorem ipsum
                     </span>
@@ -251,22 +253,45 @@
                 </div>
                 <ul class="picture__list w-100 row list-unstyled mx-auto g-md-4">
                     <li class="picture__img col-12 col-md-6 col-lg-4">
-                        <img class="item__img img-fluid mx-sm-auto" src="./images/book-decs.jpg" alt="book">
+                        <img class="item__img img-fluid mx-sm-auto" src="./images/book-decs.jpg" 
+                        width="382"
+                        height="223"
+                        srcset="./images/book-decs.jpg 1x , ./images/book-decs2x.jpg 2x"
+                        alt="book">
                     </li>
                     <li class="picture__img col-12 col-md-6  col-lg-4">
-                        <img class="item__img  img-fluid mx-sm-auto" src="./images/ofice-people-decs top(1).jpg" alt="office">
+                        <img class="item__img  img-fluid mx-sm-auto" src="./images/ofice-people-decs top(1).jpg" 
+                        width="382"
+                        height="223"
+                        alt="office">
                     </li>
                     <li class="picture__img col-12 col-md-6  col-lg-4">
-                        <img class="item__img img-fluid mx-sm-auto" src="./images/hair-gril-desc.jpg" alt="girl">
+                        <img class="item__img img-fluid mx-sm-auto" src="./images/hair-gril-desc.jpg" 
+                        width="352"
+                        height="223"
+                        srcset="./images/hair-gril-desc.jpg 1x , ./images/hair-girl-desc2x.jpg 2x "
+                        alt="girl">
                     </li>
                     <li class="picture__img d-none d-md-block col-md-6 col-lg-3">
-                        <img class="item__img img-fluid mx-sm-auto " src="./images/black-girl-decs.jpg" alt="black girl">
+                        <img class="item__img img-fluid mx-sm-auto " src="./images/black-girl-decs.jpg" 
+                        width="246"
+                        height="223"
+                        srcset="./images/black-girl-decs.jpg 1x , ./images/black-girl-decs2x.jpg 2x"
+                        alt="black girl">
                     </li>
                     <li class="picture__img col-12 col-md-6 col-lg-4">
-                        <img class="item__img d-none d-md-block img-fluid mx-sm-auto" src="./images/black-chb-ofiice-desc.jpg" alt="chb -ocffice">
+                        <img class="item__img d-none d-md-block img-fluid mx-sm-auto" src="./images/black-chb-ofiice-desc.jpg"
+                        width="401"
+                        height="223"
+                        srcset="./images/black-chb-ofiice-desc.jpg 1x , ./images/black-chb-ofiice-desc2x.jpg 2x"
+                        alt="chb gray ocffice">
                     </li>
                     <li class="picture__img col-12 col-md-6 col-lg-5">
-                        <img class=" item__img img-fluid mx-sm-auto" src="./images/speak-girls-desc.jpg" alt="girl">
+                        <img class=" item__img img-fluid mx-sm-auto" src="./images/speak-girls-desc.jpg"
+                        width="469"
+                        height="223"
+                        srcset="./images/speak-girls-desc.jpg 1x , ./images/speak-girls-desc2x.jpg 2x"
+                        alt="girls speaking">
                     </li>
                 </ul>
                 
@@ -294,7 +319,7 @@
                             </p>
                         </div>
                         <div class="link__wrapper mx-md-auto mx-xl-0" >
-                            <a class="phone__link d-inline-block fw-normal text-decoration-none mx-md-auto" href="#">Read more</a>
+                            <a class="phone__link d-inline-block fw-normal text-decoration-none text-white mx-md-auto" href="#">Read more</a>
                         </div>
                     </div>
                     <img class="img-fluid mx-md-auto mx-xl-0 maket" src="./images/maket-decs.jpg" alt="bg img maket">
@@ -316,18 +341,18 @@
                 </div>
                 <div class="article__wrapper w-100 d-lg-flex align-items-lg-center justify-content-lg-between">
                     <div class="text__minbox w-100">
-                        <h3 class="artcl__heading">
+                        <h3 class="artcl__heading text-white">
                             Stay in the loop
                         </h3>
-                        <p class="artcle__info fw-normal">
+                        <p class="artcle__info fw-normal text-white">
                             Subscribe to receive the latest news and updates about TDA.
                             We promise not to spam you! 
                         </p>
                     </div>
                     <form class="w-auto" action="https://echo.htmlacademy.ru/" method="post" autocomplete="off">
-                        <label class="form-label mb-0 ">
+                        <label class="form-label mb-0 bg-white">
                             <input class="form-input" type="email" name="user_email"  placeholder="Enter email address" required>
-                            <button class="form-btn mx-auto" type="submit">Continue</button>
+                            <button class="form-btn mx-auto text-white" type="submit">Continue</button>
                         </label>
                     </form>
                 </div>
@@ -338,94 +363,96 @@
     
     <footer class="footer">
         <div class="bg__footer" >
-
+            
             <div class="container mx-auto mobile-conatiner">
                 <div class="footer__wrapper  d-none  d-md-flex  justify-content-md-between">
                     <div class="min__wrapper w-100 me-md-4 me-xl-0">
                         <a href="./index.html">
                             <img src="./images/LOGO (2).svg" alt="site footer logo">
                         </a>
-                        <p class="footer__text fw-normal ">
+                        <p class="footer__text fw-normal text-white">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                         </p>
-                        <span class="min__email fw-normal">
+                        <span class="min__email fw-normal text-white">
                             @Company.com
                         </span>
                     </div>
                     <div class="footer__info me-md-4 me-xl-0">
-                        <strong class="about__us d-inline-block" >
+                        <strong class="about__us d-inline-block text-white" >
                             About us
                         </strong>
                         <ul class="footer__list list-unstyled ">
                             <li class="footer__item">
-                                <a class="footer__link fw-normal text-decoration-none" href="#">
+                                <a class="footer__link fw-normal text-decoration-none text-white" href="#">
                                     Company
                                 </a>
                             </li>
                             <li class="footer__item">
-                                <a class="footer__link fw-normal text-decoration-none" href="#">
+                                <a class="footer__link fw-normal text-decoration-none text-white" href="#">
                                     Portfolio
                                 </a>
                             </li>
                             <li class="footer__item">
-                                <a class="footer__link fw-normal text-decoration-none" href="#">
+                                <a class="footer__link fw-normal text-decoration-none text-white" href="#">
                                     Careers
                                 </a>
                             </li>
                             <li class="footer__item">
-                                <a class="footer__link fw-normal text-decoration-none" href="#">
+                                <a class="footer__link fw-normal text-decoration-none text-white" href="#">
                                     Contact us
                                 </a>
                             </li>
                         </ul>
                     </div>
                     <div class="contact__us w-100 me-md-4  me-xl-0">
-                        <strong class="conatct__title d-block">
+                        <strong class="conatct__title d-block text-white">
                             Contact us
                         </strong>
-                        <p class="contact__info fw-normal">
+                        <p class="contact__info fw-normal text-white">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                         </p>
-                        <a class="footer__tel fw-normal text-decoration-none" href="tel:+90000000000">+9000 0000 000</a>
+                        <a class="footer__tel fw-normal text-decoration-none text-white" href="tel:+90000000000">+9000 0000 000</a>
                     </div>
                     <ul class="messenger__list list-unstyled d-flex align-items-end ">
                         <li class="messenger__item me-3">
-                            <a class="mesenger__link d-inline-block bg-white d-flex justify-content-center align-items-center"  href="#">
+                            <a class="mesenger__link d-inline-block bg-white d-flex justify-content-center align-items-center"  href="https://yandex.ru/search/?clid=2422873-478&win=519&from=chromesearch&text=facebook.com">
                                 <img src="./images/facee.svg" alt="faceebook">
                             </a>
                         </li>
                         <li class="messenger__item me-3">
-                            <a class="mesenger__link d-inline-block bg-white d-flex justify-content-center align-items-center"  href="#">
-                                <img src="./images/insta.svg" alt="instagram">
-                            </a>
-                        </li>
-                        <li class="messenger__item me-3">
-                            <a class="mesenger__link d-inline-block bg-white d-flex justify-content-center align-items-center"  href="#">
-                                <img src="./images/tw.svg" alt="twitter">
-                            </a>
-                        </li>
-                        <li class="messenger__item me-3">
-                            <a class="mesenger__link d-inline-block bg-white d-flex justify-content-center align-items-center" href="#">
-                                <img src="./images/link.svg" alt="linkedin">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+                            <a class="mesenger__link d-inline-block bg-white d-flex justify-content-center align-items-center" 
+                            href="https://www.instagram.com">
+                            <img src="./images/insta.svg" alt="instagram">
+                        </a>
+                    </li>
+                    <li class="messenger__item me-3">
+                        <a class="mesenger__link d-inline-block bg-white d-flex justify-content-center align-items-center"  href="https://www.twitter.com">
+                            <img src="./images/tw.svg" alt="twitter">
+                        </a>
+                    </li>
+                    <li class="messenger__item me-3">
+                        <a class="mesenger__link d-inline-block bg-white d-flex justify-content-center align-items-center" href="https://ru.linkedin.com
+                        ">
+                        <img src="./images/link.svg" alt="linkedin">
+                    </a>
+                </li>
+            </ul>
         </div>
-        <div class="bottom">
-            <p class=" fw-normal footer__bottom text-center">
-                Copyright ® 2021 Company All rights Rcerved
-            </p>
-        </div>
-    </footer>
-    
-    <script
-    src="https://code.jquery.com/jquery-3.6.1.min.js"
-    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
-    crossorigin="anonymous"></script>
-    <script src="./slick/slick/slick.min.js"></script>
-    <script src="./bs-js/bootstrap.bundle.min.js"></script>
-    <script src="./js/main.js"></script>
+    </div>
+</div>
+<div class="bottom">
+    <p class=" fw-normal footer__bottom text-center text-white m-0">
+        Copyright ® 2021 Company All rights Rcerved
+    </p>
+</div>
+</footer>
+
+<script
+src="https://code.jquery.com/jquery-3.6.1.min.js"
+integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+crossorigin="anonymous"></script>
+<script src="./slick/slick/slick.min.js"></script>
+<script src="./bs-js/bootstrap.bundle.min.js"></script>
+<script src="./js/main.js"></script>
 </body>
 </html>

@@ -3,7 +3,6 @@
 }
 
 .header-top {
-    background-color: #fff;
     padding-top: 8px;
     padding-bottom: 9px;
 }
@@ -83,8 +82,6 @@
     background-repeat: no-repeat;
     width: 26px;
     height: 25px;
-    border:none;
-    background-color: transparent;
 }
 
 .show .site-btn{
@@ -96,13 +93,11 @@
 .sitenav-link{
     font-size: 16px;
     line-height: 24px;
-    color: #fff;
 }
 .scroll{
     overflow: hidden;
    } 
 .site-conatact {
-    background-color: #fff;
     color: #DC7000;
     border-radius: 6px;
     padding: 11px 28px;

@@ -454,7 +454,6 @@ body {
 }
 
 .header-top {
-  background-color: #fff;
   padding-top: 8px;
   padding-bottom: 9px;
 }
@@ -534,8 +533,6 @@ body {
   background-repeat: no-repeat;
   width: 26px;
   height: 25px;
-  border: none;
-  background-color: transparent;
 }
 
 .show .site-btn {
@@ -549,7 +546,6 @@ body {
 .sitenav-link {
   font-size: 16px;
   line-height: 24px;
-  color: #fff;
 }
 
 .scroll {
@@ -557,7 +553,6 @@ body {
 }
 
 .site-conatact {
-  background-color: #fff;
   color: #DC7000;
   border-radius: 6px;
   padding: 11px 28px;
@@ -579,12 +574,10 @@ body {
 .hero-min__title {
   line-height: 155.2%;
   color: #e87d0e;
-  display: inline-block;
   margin-bottom: 31px;
 }
 
 .hero-title__wrapper {
-  width: 100%;
   max-width: 480px;
 }
 
@@ -595,7 +588,6 @@ body {
 }
 
 .text-wrapper {
-  width: 100%;
   max-width: 527px;
 }
 
@@ -612,7 +604,6 @@ body {
   font-size: 15px;
   line-height: 22px;
   background-image: linear-gradient(92.48deg, #FA8305 2.08%, #FB9E3C 117.25%);
-  color: #fff;
   border-radius: 40px;
   padding: 14px 31px 15px 30px;
 }
@@ -642,7 +633,6 @@ body {
   }
 }
 .work {
-  padding-top: 48px;
   padding-bottom: 101px;
 }
 
@@ -780,7 +770,6 @@ body {
 
 .about__item {
   max-width: 298px;
-  background: white;
   border-radius: 20px;
   margin: 0 19px;
   padding: 35px 39px 39px 35px;
@@ -988,7 +977,6 @@ body {
 .phone__link {
   font-size: 16px;
   line-height: 24px;
-  color: white;
   background-color: #dc7000;
   margin-bottom: 66px;
   padding: 13px 44px;
@@ -1049,14 +1037,12 @@ body {
   font-weight: 500;
   font-size: 30px;
   line-height: 45px;
-  color: white;
   margin-bottom: 24px;
 }
 
 .artcle__info {
   font-size: 15px;
   line-height: 22px;
-  color: #fff;
   margin-bottom: 43px;
 }
 
@@ -1076,7 +1062,6 @@ body {
   width: 100%;
   padding: 6px;
   border-radius: 8px;
-  background-color: #fff;
 }
 
 .form-input {
@@ -1121,7 +1106,6 @@ body {
   padding: 7px 11px 7px 16px;
   font-size: 13px;
   line-height: 20px;
-  color: #fff;
   background-color: #DC7000;
   border: none;
   border-radius: 8px;
@@ -1171,7 +1155,6 @@ body {
 .footer__text {
   font-size: 12px;
   line-height: 24px;
-  color: #fff;
   margin-top: 20px;
   margin-bottom: 25px;
 }
@@ -1179,21 +1162,18 @@ body {
 .min__email {
   font-size: 12px;
   line-height: 24px;
-  color: #fff;
 }
 
 .about__us {
   font-weight: 500;
   font-size: 12px;
   line-height: 26px;
-  color: #fff;
   margin-bottom: 15px;
 }
 
 .footer__link {
   font-size: 12px;
   line-height: 186.3%;
-  color: #fff;
 }
 
 .contact__us {
@@ -1204,22 +1184,17 @@ body {
   font-weight: 500;
   font-size: 13px;
   line-height: 26px;
-  color: white;
   margin-bottom: 20px;
 }
 
 .contact__info {
-  font-weight: 400;
   font-size: 12px;
   line-height: 24px;
-  color: #fff;
 }
 
 .footer__tel {
-  font-weight: 400;
   font-size: 12px;
   line-height: 24px;
-  color: #FFFFFF;
 }
 
 .mesenger__link {
@@ -1231,7 +1206,6 @@ body {
 .footer__bottom {
   font-size: 12px;
   line-height: 190.6%;
-  color: #FFFFFF;
   border-top: 0.8px solid #D2D2D2;
   padding: 29px 0;
 }
@@ -1253,44 +1227,37 @@ body {
   .footer__text {
     font-size: 16px;
     line-height: 24px;
-    color: #fff;
     margin-top: 20px;
     margin-bottom: 25px;
   }
   .min__email {
     font-size: 16px;
     line-height: 24px;
-    color: #fff;
   }
   .about__us {
     font-weight: 500;
     font-size: 17px;
     line-height: 26px;
-    color: #fff;
     margin-bottom: 15px;
   }
   .footer__link {
     font-size: 16px;
     line-height: 186.3%;
-    color: #fff;
   }
   .conatct__title {
     font-weight: 500;
     font-size: 17px;
     line-height: 26px;
-    color: white;
     margin-bottom: 20px;
   }
   .contact__info {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #fff;
   }
   .footer__tel {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #FFFFFF;
   }
 }/*# sourceMappingURL=main.css.map */
