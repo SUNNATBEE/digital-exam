@@ -1,0 +1,123 @@
+.bg__footer{
+    background-color: #1b1b1b;
+}
+
+.min__wrapper{
+    max-width: 372px;
+}
+.footer__text {
+    font-size: 12px;
+    line-height: 24px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.min__email{
+    font-size: 12px;
+    line-height: 24px;
+    color: #fff;
+}
+.about__us{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 26px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.footer__link{
+    font-size: 12px;
+    line-height: 186.3%;
+    color: #fff
+}
+.contact__us{
+    max-width: 282px;
+}
+.conatct__title{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 26px;
+    color: #ffff;
+    margin-bottom: 20px;
+}
+.contact__info{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #fff;
+}
+.footer__tel{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.mesenger__link{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+.footer__bottom{
+    font-size: 12px;
+    line-height: 190.6%;
+    color: #FFFFFF;
+    border-top: 0.8px solid #D2D2D2;
+    padding: 29px 0;
+}
+.bottom{
+    background-color: #1b1b1b;
+}
+@media only screen and (min-width:768px){
+    .footer__bottom{
+        font-size: 13px;
+    }
+    .bg__footer{
+    padding-top: 66px;
+    padding-bottom: 56px;
+}
+}
+@media only screen and (min-width: 1200px){
+    .footer__text {
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+    .min__email{
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+    }
+    .about__us{
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 26px;
+        color: #fff;
+        margin-bottom: 15px;
+    }
+    .footer__link{
+        font-size: 16px;
+        line-height: 186.3%;
+        color: #fff
+    }
+    .conatct__title{
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 26px;
+        color: #ffff;
+        margin-bottom: 20px;
+    }
+    .contact__info{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+    }
+    .footer__tel{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+    
+}
